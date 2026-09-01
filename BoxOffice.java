@@ -5,23 +5,19 @@ public class BoxOffice {
         Scanner newScanner=new Scanner(System.in);
 
         String Name;
-        int Children;
-        int Adults;
+        int Children, Adults;
 
         System.out.print("What is the name of the movie you'd like to see: ");
         Name=newScanner.nextLine();
 
-        System.out.print("\n\nHow many adult tickets would you like to buy: ");
+        System.out.print("\nHow many adult tickets would you like to buy: ");
         Adults=newScanner.nextInt();
 
-        System.out.print("\n\nHow many children tickets would you like to buy: ");
+        System.out.print("\nHow many children tickets would you like to buy: ");
         Children=newScanner.nextInt();
 
-        double childrenCost=6;
-        double adultCost=10;
+        double childrenCost=6, adultCost=10, grossBoxOfficeProfit=(childrenCost*Children)+(adultCost+Adults), netBoxOfficeProfit=grossBoxOfficeProfit/5;
 
-        double grossBoxOfficeProfit=(childrenCost*Children)+(adultCost+Adults);
-        double netBoxOfficeProfit=grossBoxOfficeProfit/5;
         double distributorProfit=grossBoxOfficeProfit-netBoxOfficeProfit;
 
         System.out.print("\n\nMovie Name:                   "+Name+
