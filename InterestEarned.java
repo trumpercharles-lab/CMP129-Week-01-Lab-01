@@ -16,10 +16,10 @@ public class InterestEarned {
 
         amount=principle*Math.pow((1+(rate/T)),T);
 
-        System.out.print("\n\nInterest Rate:                %"+rate+
+        System.out.print("\n\nInterest Rate:               % "+rate+
                            "\nTimes Compounded:              "+T+
-                           "\nPrinciple:                    $"+principle+
-                           "\nInterest:                     $"+(principle/100)*rate+
-                           "\nAmount in Savings:            $"+amount);
+                           "\nPrinciple:                   $ "+principle+
+                           "\nInterest:                    $ "+(principle/100)*rate+
+                           "\nAmount in Savings:           $ "+amount);
     }
 }
