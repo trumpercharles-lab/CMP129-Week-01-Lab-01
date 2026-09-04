@@ -14,7 +14,7 @@ public class InterestEarned {
         System.out.print("\nHow many times is it Compiled per Year: ");
         T=newScanner.nextDouble();
 
-        amount=principle*(1+(rate/T));
+        amount=principle*Math.pow((1+(rate/T)),T);
 
         System.out.print("\n\nInterest Rate:                %"+rate+
                            "\nTimes Compounded:              "+T+
