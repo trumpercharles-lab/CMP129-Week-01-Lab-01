@@ -16,7 +16,9 @@ public class BoxOffice {
         System.out.print("\nHow many children tickets would you like to buy: ");
         Children=newScanner.nextInt();
 
-        double childrenCost=6, adultCost=10, grossBoxOfficeProfit=(childrenCost*Children)+(adultCost+Adults), netBoxOfficeProfit=grossBoxOfficeProfit/5;
+        double childrenCost=6, adultCost=10;
+        double grossBoxOfficeProfit=(childrenCost*Children)+(adultCost*Adults);
+        double netBoxOfficeProfit=grossBoxOfficeProfit*0.2;
 
         double distributorProfit=grossBoxOfficeProfit-netBoxOfficeProfit;
 
