@@ -38,16 +38,16 @@ Response: I used both suggestions.
 
 Explain how you tested the code and confirmed that the AI assistance was accurate.
 
-Response: 
+Response: I entered all the information given from the lab example and ran the code to see if I got similar results.
 
 ## What I Learned
 
 Describe one concept or programming skill you understand better after completing the lab.
 
-Response:
+Response: Math.pow() + pushing to Github
 
 ## Summary
 
 Provide any additional information about your use of AI for this lab.
 
-Response:
+Response: Nothing else.
